@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Curso</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--Formulário que envia nome e cpf para servlet /cliente -->
+        <form name="form1" method="post" action="/desafio/CursoServlet">
+            ID: <input type="number" name="id" value=""> <br />
+            Nome: <input type="text" name="nome" value=""> <br />
+            Turno: <input type="text" name="turno" value=""> <br />
+            Quantidade de Estudantes: <input type="number" name="qtde" value=""> <br />
+            Data de Matrícula: <input type="date" name="data" value=""> <br />
+            <input type="submit" value="Enviar"/>
+        </form>
+    </body>
+</html>
