@@ -12,6 +12,10 @@
         <servlet-name>MercadoriasServlet</servlet-name>
         <servlet-class>web.MercadoriasServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>EmpresaServlet</servlet-name>
+        <servlet-class>web.EmpresaServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ClienteServlet</servlet-name>
         <url-pattern>/cliente</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>MercadoriasServlet</servlet-name>
         <url-pattern>/merc</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EmpresaServlet</servlet-name>
+        <url-pattern>/EmpresaServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
